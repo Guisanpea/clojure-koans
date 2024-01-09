@@ -8,7 +8,7 @@
         :walking          "not fast at all"
         "is that even exercise?"))
 
-(meditations
+(comment
   "You will face many decisions"
   (= :a (if (false? (= 4 5))
           :a
@@ -34,14 +34,14 @@
                         :else :your-road)))
 
   "Or your fate may be sealed"
-  (= 'doom (if-not (zero? __)
+  (= 'doom (if-not (zero? 3)
           'doom
           'more-doom))
 
   "In case of emergency, go fast"
   (= "pretty fast"
-     (explain-exercise-velocity __))
+     (explain-exercise-velocity :bicycling))
 
   "But admit it when you don't know what to do"
-  (= __
+  (= "is that even exercise?"
      (explain-exercise-velocity :watching-tv)))
